@@ -2,16 +2,16 @@
 <testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="903" started-at="2023-05-25T21:28:34 IST" finished-at="2023-05-25T21:28:35 IST">
+  <suite name="Default suite" duration-ms="910" started-at="2023-05-26T08:59:22 IST" finished-at="2023-05-26T08:59:23 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="903" started-at="2023-05-25T21:28:34 IST" finished-at="2023-05-25T21:28:35 IST">
-      <class name="testScripts.AddTestingCourseToMyCartTest">
-        <test-method status="PASS" signature="classConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@1990a65e]" name="classConfig" is-config="true" duration-ms="826" started-at="2023-05-25T21:28:34 IST" finished-at="2023-05-25T21:28:35 IST">
+    <test name="Default test" duration-ms="910" started-at="2023-05-26T08:59:22 IST" finished-at="2023-05-26T08:59:23 IST">
+      <class name="testScripts.SendContactDetailsTest">
+        <test-method status="PASS" signature="classConfig()[pri:0, instance:testScripts.SendContactDetailsTest@1990a65e]" name="classConfig" is-config="true" duration-ms="834" started-at="2023-05-26T08:59:22 IST" finished-at="2023-05-26T08:59:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classConfig -->
-        <test-method status="FAIL" signature="methodConfig()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@1990a65e]" name="methodConfig" is-config="true" duration-ms="0" started-at="2023-05-25T21:28:35 IST" finished-at="2023-05-25T21:28:35 IST">
+        <test-method status="FAIL" signature="methodConfig()[pri:0, instance:testScripts.SendContactDetailsTest@1990a65e]" name="methodConfig" is-config="true" duration-ms="0" started-at="2023-05-26T08:59:23 IST" finished-at="2023-05-26T08:59:23 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -55,7 +55,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodConfig -->
-        <test-method status="SKIP" signature="addPythonToMyCart()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@1990a65e]" name="addPythonToMyCart" duration-ms="0" started-at="2023-05-25T21:28:35 IST" finished-at="2023-05-25T21:28:35 IST">
+        <test-method status="SKIP" signature="sendContactDetailsTest()[pri:0, instance:testScripts.SendContactDetailsTest@1990a65e]" name="sendContactDetailsTest" duration-ms="0" started-at="2023-05-26T08:59:23 IST" finished-at="2023-05-26T08:59:23 IST">
           <exception class="java.lang.NullPointerException">
             <full-stacktrace>
               <![CDATA[java.lang.NullPointerException
@@ -98,16 +98,16 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- addPythonToMyCart -->
-        <test-method status="SKIP" signature="methodTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@1990a65e]" name="methodTearDown" is-config="true" duration-ms="-1685030315099" started-at="2023-05-25T21:28:35 IST" finished-at="1970-01-01T05:30:00 IST">
+        </test-method> <!-- sendContactDetailsTest -->
+        <test-method status="SKIP" signature="methodTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@1990a65e]" name="methodTearDown" is-config="true" duration-ms="-1685071763727" started-at="2023-05-26T08:59:23 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodTearDown -->
-        <test-method status="SKIP" signature="classTearDown()[pri:0, instance:testScripts.AddTestingCourseToMyCartTest@1990a65e]" name="classTearDown" is-config="true" duration-ms="-1685030315104" started-at="2023-05-25T21:28:35 IST" finished-at="1970-01-01T05:30:00 IST">
+        <test-method status="SKIP" signature="classTearDown()[pri:0, instance:testScripts.SendContactDetailsTest@1990a65e]" name="classTearDown" is-config="true" duration-ms="-1685071763730" started-at="2023-05-26T08:59:23 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- classTearDown -->
-      </class> <!-- testScripts.AddTestingCourseToMyCartTest -->
+      </class> <!-- testScripts.SendContactDetailsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
